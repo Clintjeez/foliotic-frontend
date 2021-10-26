@@ -1,0 +1,209 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+////////////////// NORMALIZE - a reset and base styles
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+body {
+  color: #e8eaed;
+}
+
+/////////////// CORE STYLES - collection of basic values ////////////////////
+
+///// Typography
+.hd-txt-1 {
+  font-size: 56px;
+  line-height: 61.6px;
+}
+.hd-txt-2 {
+  font-size: 48px;
+  line-height: 52.8px;
+}
+.hd-txt-3 {
+  font-size: 40px;
+  line-height: 44px;
+}
+.hd-txt-4 {
+  font-size: 32px;
+  line-height: 35.2px;
+}
+.hd-txt-5 {
+  font-size: 24px;
+  line-height: 26.5px;
+}
+
+.p-txt-1 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.p-txt-2 {
+  font-size: 18px;
+  line-height: 25.2px;
+}
+.p-txt-3 {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.p-txt-4 {
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.p-txt-5 {
+  font-size: 12px;
+  line-height: 16.2px;
+}
+
+.txt-wht-bold1 {
+  font-weight: 600;
+}
+.txt-wht-bold2 {
+  font-weight: 500;
+}
+.txt-wht-bold3 {
+  font-weight: 300;
+}
+.txt-wht-bold {
+  font-weight: 100;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-left {
+  text-align: left;
+}
+.txt-right {
+  text-align: right;
+}
+
+// Background & Colors
+.pri {
+  color: #2572e9;
+}
+.pri-bg {
+  background: #2572e9;
+}
+.sec {
+  color: #fdcd19;
+}
+.sec-bg {
+  background-color: #fdcd19;
+}
+
+.bg-dark-1 {
+  background-color: #1b1824;
+}
+.bg-dark-2 {
+  background-color: #202124;
+}
+.bg-light {
+  background-color: #fff;
+}
+.nuetral {
+  color: #7d8287;
+}
+
+// Buttons & Call-to-action
+.btn {
+  width: auto;
+  height: auto;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 15px 40px;
+}
+.btn.sm {
+  width: auto;
+  height: auto;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 10px 25px;
+}
+.cursor {
+  cursor: pointer;
+}
+.bder {
+  border: 1px solid #7d8287;
+}
+.bder-pri {
+  border: 1px solid #2572e9;
+}
+.bder-sec {
+  border: 1px solid #fdcd19;
+}
+
+.bder-r1 {
+  border-radius: 3px;
+}
+.bder-r2 {
+  border-radius: 10px;
+}
+.bder-r3 {
+  border-radius: 20px;
+}
+.bder-rfull {
+  border-radius: 50%;
+}
+
+// Layouts & Grid
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-sm {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-xs {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.d0 {
+  display: none;
+}
+.p0 {
+  padding: 0px !important;
+}
+.m0 {
+  margin: 0px !important;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.space-between {
+  justify-content: space-between;
+}
